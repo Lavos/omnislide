@@ -1,0 +1,7 @@
+/* IE start */
+.omnislide.enabled { overflow: hidden; }
+.omnislide_slide { position: absolute; left: -100%; top: 0; bottom: 0; width: 100%; height: auto; overflow: hidden; -webkit-transition: left .250s; -moz-transition: left .250s; transition: left .250s;  }
+.notransition, .notransition .omnislide_slide { -webkit-transition-duration: 0 !important; -moz-transition-delay: 0 !important; transition-delay: 0 !important;  -webkit-transition-delay: 0 !important; -moz-transition-delay: 0 !important; transition-delay: 0 !important; -webkit-transform: translate3d(0, 0, 0); }
+.omnislide.enabled .omnislide_active { left: 0; }
+.omnislide.enabled .omnislide_after { left: 100%; }
+/* IE end */
